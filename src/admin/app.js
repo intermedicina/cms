@@ -10,13 +10,13 @@ export default {
     translations: {
       'pt-BR': {
         "app.components.LeftMenu.navbrand.title": siteName,
-        "app.components.LeftMenu.navbrand.workplace": "",
-        "Auth.form.welcome.subtitle": "",
+        "app.components.LeftMenu.navbrand.workplace": " ",
+        "Auth.form.welcome.subtitle": " ",
       },
       en:{
         "app.components.LeftMenu.navbrand.title": siteName,
-        "app.components.LeftMenu.navbrand.workplace": "",
-        "Auth.form.welcome.subtitle": "",
+        "app.components.LeftMenu.navbrand.workplace": " ",
+        "Auth.form.welcome.subtitle": " ",
       }
     },
     auth: {
