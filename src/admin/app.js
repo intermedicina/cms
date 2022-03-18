@@ -2,9 +2,23 @@ import AuthLogo from './extensions/logo.svg';
 import MenuLogo from './extensions/icon.svg';
 import favicon from './extensions/favicon.ico';
 
+const siteName = "Intermedicina"
+
 export default {
   config: {
     locales: ['pt-BR'],
+    translations: {
+      'pt-BR': {
+        "app.components.LeftMenu.navbrand.title": siteName,
+        "app.components.LeftMenu.navbrand.workplace": "",
+        "Auth.form.welcome.subtitle": "",
+      },
+      en:{
+        "app.components.LeftMenu.navbrand.title": siteName,
+        "app.components.LeftMenu.navbrand.workplace": "",
+        "Auth.form.welcome.subtitle": "",
+      }
+    },
     auth: {
       logo: AuthLogo,
     },
