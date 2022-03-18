@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_repeat_especialidades",
+  "info": {
+    "displayName": "Especialidades",
+    "icon": "plus-circle"
+  },
+  "options": {},
+  "attributes": {
+    "especialidade": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "unique_medicos",
+  "info": {
+    "singularName": "unique-medico",
+    "pluralName": "unique-medicos",
+    "displayName": "Unique - Médicos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "local": {
+      "type": "string"
+    },
+    "especialidades": {
+      "displayName": "Especialidades",
+      "type": "component",
+      "repeatable": true,
+      "component": "repeat.especialidades"
+    },
+    "imagens": {
+      "displayName": "Imagens",
+      "type": "component",
+      "repeatable": true,
+      "component": "repeat.imagens"
+    },
+    "enderecos": {
+      "displayName": "enderecos",
+      "type": "component",
+      "repeatable": true,
+      "component": "repeat.enderecos"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "parceiro": {
+      "type": "string"
+    }
+  }
+}

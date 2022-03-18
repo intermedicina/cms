@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "depoimentos",
+  "info": {
+    "singularName": "depoimento",
+    "pluralName": "depoimentos",
+    "displayName": "Depoimentos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "cidade": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "foto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "data": {
+      "type": "datetime"
+    }
+  }
+}

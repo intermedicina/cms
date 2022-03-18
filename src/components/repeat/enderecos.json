@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_repeat_enderecos",
+  "info": {
+    "displayName": "enderecos",
+    "icon": "plus-square"
+  },
+  "options": {},
+  "attributes": {
+    "endereco": {
+      "type": "string"
+    }
+  }
+}
