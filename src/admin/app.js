@@ -16,19 +16,14 @@ export default {
     },
     theme: {
       colors: {
-        alternative100: '#B4E1F8',
-        alternative200: '#6AC4F1',
-        alternative500: '#138FCE',
-        alternative600: '#1182BB',
-        alternative700: '#0E6895',
 
-        primary100: '#B4E1F8',
-        primary200: '#6AC4F1',
-        primary500: '#138FCE',
-        primary600: '#1182BB',
-        primary700: '#0E6895',
+        primary100: '#DAF0FC',
+        primary200: '#A2DAF6',
+        primary500: '#57BDEF',
+        primary600: '#1FA6EA',
+        primary700: '#138FCE',
 
-        danger700: '#b72b1a'
+        danger700: '#E2202C'
       },
     },
     // Disable video tutorials
