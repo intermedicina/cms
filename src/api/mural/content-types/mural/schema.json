@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "murals",
+  "info": {
+    "singularName": "mural",
+    "pluralName": "murals",
+    "displayName": "Mural"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Cargo": {
+      "type": "string",
+      "required": true
+    },
+    "Imagem": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "cidade": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cidade.cidade",
+      "inversedBy": "murals"
+    },
+    "tipo": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::tipo.tipo",
+      "inversedBy": "murals"
+    },
+    "data": {
+      "type": "datetime",
+      "required": false
+    }
+  }
+}
