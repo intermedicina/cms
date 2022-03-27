@@ -17,9 +17,5 @@
     "maintainers": [{
         "name": "A Strapi developer"
     }],
-    "engines": {
-        "node": "16.x.x",
-        "npm": ">=6.0.0"
-    },
     "license": "MIT"
 }
