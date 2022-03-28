@@ -60,7 +60,7 @@ const Wysiwyg = ({
           fullWidth
           onClick={handleToggleMediaLib}
         >
-          Media library
+          Adicionar Imagens
         </Button>
         <Editor
           disabled={disabled}
