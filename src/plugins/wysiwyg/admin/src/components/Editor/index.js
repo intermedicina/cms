@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { CKEditor } from "@ckeditor/ckeditor5-react";
-import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
+import { CKEditor } from "../../../../../../../node_modules/@ckeditor/ckeditor5-react";
+import ClassicEditor from "../../../../../../../node_modules/@ckeditor/ckeditor5-build-classic";
 import { Box } from "@strapi/design-system/Box";
 
 const Wrapper = styled(Box)`
