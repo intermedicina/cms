@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_repeat_cidades",
+  "info": {
+    "displayName": "Cidades",
+    "icon": "plus"
+  },
+  "options": {},
+  "attributes": {
+    "cidade": {
+      "type": "string"
+    }
+  }
+}
